@@ -23,9 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gns##t9akf_-h2a7f%)=)i_^f_pdyj&w6+&d7zm%9$)1f$+k-*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'to-do-list-7bs1.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
